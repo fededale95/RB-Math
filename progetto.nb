@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    250243,       4108]
-NotebookOptionsPosition[    247255,       4043]
-NotebookOutlinePosition[    248515,       4078]
-CellTagsIndexPosition[    248435,       4073]
+NotebookDataLength[    250218,       4107]
+NotebookOptionsPosition[    247312,       4044]
+NotebookOutlinePosition[    248489,       4077]
+CellTagsIndexPosition[    248409,       4072]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -151,15 +151,16 @@ associativi.
 La struttura originale \[EGrave] stata inventata nel 1972 da Rudolf Bayer che \
 la chiam\[OGrave] \[OpenCurlyDoubleQuote]B-alberi binari simmetrici\
 \[CloseCurlyDoubleQuote], ma ha acquisito il nome attuale a partire da un \
-articolo del 1978 di Leo J. Guibas e Robert Sedgewick. 
+articolo del 1978 di Leo J. Guibas e Robert Sedgewick. PROVA
 \[CapitalEGrave] complessa, ma ha un eccellente tempo di esecuzione nel caso \
 peggiore ed \[EGrave] molto efficiente: effettua ricerche, inserimenti e \
 cancellazioni in un tempo di O(lg n), dove n \[EGrave] il numero di elementi \
 nell\[CloseCurlyQuote]albero.\
 \>", "Text",
  CellChangeTimes->{
-  3.7658611653549924`*^9, {3.765861220751149*^9, 
-   3.7658612616933966`*^9}},ExpressionUUID->"b223a145-1b17-4f56-b818-\
+  3.7658611653549924`*^9, {3.765861220751149*^9, 3.7658612616933966`*^9}, {
+   3.766465283807043*^9, 
+   3.7664652850798607`*^9}},ExpressionUUID->"b223a145-1b17-4f56-b818-\
 acfb295232dc"]
 }, Open  ]],
 
@@ -4050,9 +4051,7 @@ StyleDefinitions->Notebook[{
     StyleData[
     StyleDefinitions -> 
      FrontEnd`FileName[{"SlideShow"}, "Garnet.nb", CharacterEncoding -> 
-       "UTF-8"]]]}, WindowSize -> {775, 513}, 
-  WindowMargins -> {{0, Automatic}, {Automatic, 0}}, Visible -> False, 
-  FrontEndVersion -> 
+       "UTF-8"]]]}, Visible -> False, FrontEndVersion -> 
   "11.2 for Microsoft Windows (64-bit) (September 10, 2017)", 
   StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
 ]
@@ -4066,13 +4065,13 @@ CellTagsIndex->{
    CellTags->"SlideShowHeader"],
   Cell[5341, 134, 122, 2, 75, "SlideShowNavigationBar",ExpressionUUID->"0a27947e-88d1-4ec0-a698-f4bc3d49f5b1",
    CellTags->"SlideShowHeader"],
-  Cell[116913, 1983, 122, 2, 75, "SlideShowNavigationBar",ExpressionUUID->"bfd9890d-12dc-45e7-9a08-a6f1334963e4",
+  Cell[116970, 1984, 122, 2, 75, "SlideShowNavigationBar",ExpressionUUID->"bfd9890d-12dc-45e7-9a08-a6f1334963e4",
    CellTags->"SlideShowHeader"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 247976, 4063}
+ {"SlideShowHeader", 247950, 4062}
  }
 *)
 (*NotebookFileOutline
@@ -4088,26 +4087,26 @@ Cell[5341, 134, 122, 2, 75, "SlideShowNavigationBar",ExpressionUUID->"0a27947e-8
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
 Cell[5488, 140, 161, 3, 112, "Section",ExpressionUUID->"c8f1139c-d09a-4997-a1f7-1d20d1c30ed2"],
-Cell[5652, 145, 967, 17, 355, "Text",ExpressionUUID->"b223a145-1b17-4f56-b818-acfb295232dc"]
+Cell[5652, 145, 1024, 18, 355, "Text",ExpressionUUID->"b223a145-1b17-4f56-b818-acfb295232dc"]
 }, Open  ]],
-Cell[6634, 165, 110242, 1813, 362, "Section",ExpressionUUID->"cd5d6b12-71eb-41b7-89c3-76a33027a7ba",
+Cell[6691, 166, 110242, 1813, 362, "Section",ExpressionUUID->"cd5d6b12-71eb-41b7-89c3-76a33027a7ba",
  Evaluatable->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[116913, 1983, 122, 2, 75, "SlideShowNavigationBar",ExpressionUUID->"bfd9890d-12dc-45e7-9a08-a6f1334963e4",
+Cell[116970, 1984, 122, 2, 75, "SlideShowNavigationBar",ExpressionUUID->"bfd9890d-12dc-45e7-9a08-a6f1334963e4",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[117060, 1989, 105, 0, 83, "Subsection",ExpressionUUID->"b306d2f6-259d-4ef3-9da1-88aca28771d3"],
-Cell[117168, 1991, 362, 5, 165, "Text",ExpressionUUID->"c92df3be-218e-4b98-a018-6ea1b670b2da"],
+Cell[117117, 1990, 105, 0, 83, "Subsection",ExpressionUUID->"b306d2f6-259d-4ef3-9da1-88aca28771d3"],
+Cell[117225, 1992, 362, 5, 165, "Text",ExpressionUUID->"c92df3be-218e-4b98-a018-6ea1b670b2da"],
 Cell[CellGroupData[{
-Cell[117555, 2000, 107, 0, 66, "Subsubsection",ExpressionUUID->"aa1e88e5-f003-4b07-ba28-2a8c85e05715"],
-Cell[117665, 2002, 463, 13, 38, "Input",ExpressionUUID->"3331e4d1-469d-4294-ad3b-f814568473bb"],
-Cell[118131, 2017, 68677, 1020, 234, "Input",ExpressionUUID->"09a59dc4-3173-462e-9e70-f659e2b3c8a2"]
+Cell[117612, 2001, 107, 0, 66, "Subsubsection",ExpressionUUID->"aa1e88e5-f003-4b07-ba28-2a8c85e05715"],
+Cell[117722, 2003, 463, 13, 38, "Input",ExpressionUUID->"3331e4d1-469d-4294-ad3b-f814568473bb"],
+Cell[118188, 2018, 68677, 1020, 234, "Input",ExpressionUUID->"09a59dc4-3173-462e-9e70-f659e2b3c8a2"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[186857, 3043, 105, 0, 83, "Subsection",ExpressionUUID->"351da041-dac4-440f-91e4-c76259ef61a2"],
-Cell[186965, 3045, 60262, 994, 182, "SideCaptionArray",ExpressionUUID->"52252144-e29f-4bee-8bd2-8f2831881c64"]
+Cell[186914, 3044, 105, 0, 83, "Subsection",ExpressionUUID->"351da041-dac4-440f-91e4-c76259ef61a2"],
+Cell[187022, 3046, 60262, 994, 182, "SideCaptionArray",ExpressionUUID->"52252144-e29f-4bee-8bd2-8f2831881c64"]
 }, Open  ]]
 }, Open  ]]
 }
