@@ -1,0 +1,72 @@
+In[208]:=
+Module[{left, right,value, color},
+children[_]:={};
+value[_]:=Null;
+left[_] := Null;
+right[_] := Null;
+value[_] := Null;
+color[_] := Null;
+node/:new[node[]]:=node[Unique[]];
+node/:node[tag_].insertLeft[val_]:=left[tag]=val;
+node/:node[tag_].insertRight[val_]:=right[tag]=val;
+node/:node[tag_].getLeftChild[]:=left[tag];
+node/:node[tag_].getRightChild[]:=right[tag];
+node/:node[tag_].getValue[]:=value[tag];
+node/:node[tag_].getColor[]:=color[tag];
+node/:node[tag_].setValue[val_]:=value[tag]=val;
+node/:node[tag_].setColor[val_]:=color[tag]=val;];
+
+insertNode[tree_, node_]:= {
+If[ node.getValue[] < tree.getValue[],
+{ If[tree.getLeftChild[] === Null,
+{tree.insertLeft[node]},
+{insertNode[tree.getLeftChild[], node]}]
+},
+{
+If[ node.getValue[] > tree.getValue[],
+{ 
+If[tree.getRightChild[] === Null,
+{tree.insertRight[node]},
+{insertNode[tree.getRightChild[], node]}]}]
+}];
+};
+
+inorderVisit[tree_] := {
+If[Not[tree === Null],{
+inorderVisit[tree.getLeftChild[]];
+Print[tree.getValue[]];
+inorderVisit[tree.getRightChild[]];
+}]
+}
+
+tree = new[node[]]
+tree2 = new[node[]]
+tree3 = new[node[]]
+tree4 = new[node[]]
+
+
+tree.setValue[10]
+tree2.setValue[8]
+tree3.setValue[11]
+tree4.setValue[3]
+
+insertNode[tree, tree2]
+insertNode[tree, tree3]
+insertNode[tree, tree4]
+
+inorderVisit[tree];
+Out[214]= node[$64]
+Out[215]= node[$65]
+Out[216]= node[$66]
+Out[217]= node[$67]
+Out[220]= 10
+Out[221]= 8
+Out[222]= 11
+Out[223]= 3
+Out[225]= {Null}
+Out[226]= {Null}
+Out[227]= {Null}
+During evaluation of In[208]:= 3
+During evaluation of In[208]:= 8
+During evaluation of In[208]:= 10
+During evaluation of In[208]:= 11
